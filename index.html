@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Principal</title>
+	<link rel="stylesheet" href="Mprincipal.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<body background="ima/fondoman2.jpg"></body>
+
+	<header>
+		<nav>
+			<a href="#">Inicio</a>
+			<a href="Fotografia.html">Fotografia</a>
+			<a href="Publicidad.html">Publicidad</a>
+            <a href="Sobre mi.html">Sobre mi</a>
+		</nav>
+	</header>
+
+	<div class="encabezado-img">
+	
+	</div>
+	<br>
+	<center>
+		<img src="ima/foto/PAP1.png" alt="Descripción de la imagen">
+    </center>
+	<br>
+	<br>
+	<div class="grid-container">
+		<center>
+		<img loading="lazy" class="grid-item" src="ima/foto/buenabuena.jpg" width="260" height="360" />
+		<img loading="lazy" class="grid-item" src="ima/foto/Cara2.jpg" width="220" height="200" />
+		<img loading="lazy" class="grid-item" src="ima/foto/poste1.jpg" width="230" height="410" />
+		<img loading="lazy" class="grid-item" src="ima/publi/KITKAT.png" width="230" height="150" />
+		<img loading="lazy" class="grid-item" src="ima/foto/Mari2.jpg" width="260" height="360" />
+		<img loading="lazy" class="grid-item" src="ima/foto/IMG_1447_2.jpg" width="230" height="150" />
+		<img loading="lazy" class="grid-item" src="ima/publi/LOGO CAFE 2.2.jpg" width="210" height="190" />
+		<img loading="lazy" class="grid-item" src="ima/publi/pepsi3.jpg" width="190" height="190" />
+		<img loading="lazy" class="grid-item" src="ima/publi/condon 3.jpg" width="240" height="320" />
+		<img loading="lazy" class="grid-item" src="ima/foto/Sanja2.jpg" width="260" height="360" />
+		<img loading="lazy" class="grid-item" src="ima/publi/Publicidad de Zapatos (1).jpg" width="200" height="310" />
+		<img loading="lazy" class="grid-item" src="ima/foto/yohari1.jpg" width="230" height="150" />
+		<img loading="lazy" class="grid-item" src="ima/foto/Imagen de WhatsApp 2024-03-05 a las 14.16.21_88f9d9f3.jpg" width="260" height="360" />
+		<img loading="lazy" class="grid-item" src="ima/foto/ventana2.jpg" width="260" height="360" />
+		<img loading="lazy" class="grid-item" src="ima/foto/IMG_1487_2.jpg" width="260" height="360" />
+		<img loading="lazy" class="grid-item" src="ima/foto/Mari1.jpg" width="260" height="360" />
+		<img loading="lazy" class="grid-item" src="ima/publi/condon2.jpg" width="260" height="360" />
+		<img loading="lazy" class="grid-item" src="ima/foto/Foto 2 M.JPG" width="260" height="360" />
+		<img loading="lazy" class="grid-item" src="ima/foto/IMG_1246.JPG" width="260" height="360" />
+		<img loading="lazy" class="grid-item" src="ima/foto/Foto 3 M.JPG" width="260" height="360" />
+		<img loading="lazy" class="grid-item" src="ima/foto/IMG_1134.JPG" width="260" height="360" />
+	    </center>
+		
+	  </div>
+  
+	  <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
+	  <script>
+		var elem = document.querySelector(".grid-container");
+		var msnry = new Masonry(elem, {
+		  // options
+		  itemSelector: ".grid-item",
+		  columnWidth: 230,
+		  gutter: 20,
+		  isFitWidth: true
+		});
+	  </script>
+	
+</body>
+</html>
